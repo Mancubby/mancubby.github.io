@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+background-color:#b9ccce;
+}
+h1 {
+font-family:sans-serif;
+
+}
+.header {
+margin-top:100x;
+margin-left:auto;
+margin-right:auto;
+border: 5px solid #18555c;
+text-align:center;
+background:#5d888c;
+border-radius:20px 20px 0px 0px;
+width:85%;
+height:100px;
+}
+.title {
+text-align:center;
+font-size:35px
+}
+.streamchat {
+width:85%;
+height:500px;
+border: 5px solid #18555c;
+margin-left:auto;
+margin-right:auto;
+}
+.stream {
+width:75%;
+height:500px;
+}
+.chat {
+width:24%;
+height:500px;
+}
+</style>
+</head>
+<body>
+<section class="header">
+<img src="logo.png" alt="Chroenix">
+</section>
+<section class="streamchat">
+<iframe class="stream"
+        src="http://player.twitch.tv/?channel=pukingvictory" 
+        frameborder="0" 
+        scrolling="no"
+        allowfullscreen="true">
+</iframe>
+<iframe
+		class="chat"
+		frameborder="0" 
+        scrolling="no" 
+        id="chat_embed" 
+        src="http://www.twitch.tv/pukingvictory/chat">
+</iframe>
+</section>
+</body>
+</html>
